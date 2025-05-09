@@ -1,7 +1,14 @@
 name: iconsax_linear
 description: "Iconsax Linear icon pack for flutter."
-version: 0.0.1
-homepage:
+version: 1.1.0
+homepage: https://iconsax.io/
+repository: https://github.com/shaaanuu/Iconsax-Linear
+topics:
+  - icons
+  - iconsax
+  - flutter
+  - dart
+  - linear
 
 environment:
   sdk: ^3.7.0

@@ -1,39 +1,39 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Iconsax Linear
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**Iconsax Linear** is based on [Iconsax Plus](https://github.com/moha-b/Iconsax-Plus) but only contains the _Linear_ style, making it smaller and faster.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+## Installation
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+To use _Iconsax Linear_ in your Flutter project, simply add it as a dependency in your `pubspec.yaml` file:
 
-## Features
+```shell
+flutter pub add iconsax_linear
+```
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+or
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```yaml
+dependencies:
+  iconsax_linear: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use _Iconsax Linear_ icons in your Flutter application, import the package access the icons:
 
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:iconsax_linear/iconsax_linear.dart';
+
+Center(
+  child: Icon(IconsaxLinear.home),
+),
 ```
 
-## Additional information
+## License
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+[MIT License](LICENSE). Do whatever you want (responsibly).
+
+---
+
+All the credit goes to [Iconsax team](https://iconsax.io/), [luisDanielRoviraContreras](https://github.com/luisDanielRoviraContreras/flutter_iconsax) and [moha-b](https://github.com/moha-b/Iconsax-Plus)
